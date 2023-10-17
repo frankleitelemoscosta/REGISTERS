@@ -1,3 +1,3 @@
-# DATA PATH
-Caminho de dados da MIC-1
-=> ULA + SHIFTER + REGISTERS
+# MIC-1
+Computer MIC-1
+=> CPU + Memory
