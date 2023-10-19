@@ -164,25 +164,26 @@ applicable agreement for further details.
 	(pt 464 352)
 )
 (connector
-	(text "CPP_INIT[30..10]" (rect 563 192 650 204)(font "Arial" ))
+	(pt 664 240)
+	(pt 624 240)
+	(bus)
+)
+(connector
+	(text "CPP_INIT[7]" (rect 563 192 625 204)(font "Arial" ))
 	(pt 536 208)
 	(pt 584 208)
 	(bus)
 )
 (connector
-	(text "CPP_INIT[9..0]" (rect 571 264 646 276)(font "Arial" ))
+	(text "CPP_INIT[6..0]" (rect 571 264 646 276)(font "Arial" ))
 	(pt 544 280)
 	(pt 592 280)
 	(bus)
 )
 (connector
-	(text "CPP_INIT[31]" (rect 569 296 637 308)(font "Arial" ))
+	(text "CPP_INIT[31..8]" (rect 571 296 652 308)(font "Arial" ))
 	(pt 544 312)
 	(pt 592 312)
-)
-(connector
-	(pt 664 240)
-	(pt 624 240)
 	(bus)
 )
 (junction (pt 464 312))
