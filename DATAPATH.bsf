@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 240 176)
+	(rect 16 16 240 208)
 	(text "DATAPATH" (rect 5 0 71 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 144 25 156)(font "Arial" ))
+	(text "inst" (rect 8 176 25 188)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -100,7 +100,28 @@ applicable agreement for further details.
 		(text "Z" (rect 195 107 203 121)(font "Arial" (font_size 8)))
 		(line (pt 224 112)(pt 208 112))
 	)
+	(port
+		(pt 224 128)
+		(output)
+		(text "A_BUS[31..0]" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "A_BUS[31..0]" (rect 127 123 203 137)(font "Arial" (font_size 8)))
+		(line (pt 224 128)(pt 208 128)(line_width 3))
+	)
+	(port
+		(pt 224 144)
+		(output)
+		(text "B_BUS[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "B_BUS[31..0]" (rect 128 139 203 153)(font "Arial" (font_size 8)))
+		(line (pt 224 144)(pt 208 144)(line_width 3))
+	)
+	(port
+		(pt 224 160)
+		(output)
+		(text "C_BUS[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "C_BUS[31..0]" (rect 128 155 203 169)(font "Arial" (font_size 8)))
+		(line (pt 224 160)(pt 208 160)(line_width 3))
+	)
 	(drawing
-		(rectangle (rect 16 16 208 144))
+		(rectangle (rect 16 16 208 176))
 	)
 )
